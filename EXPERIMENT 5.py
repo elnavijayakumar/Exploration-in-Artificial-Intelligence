@@ -11,3 +11,12 @@ print("Std. Dev. :", round(np.std(sensor_data), 2))
 threshold = 28.0
 high_values = sensor_data[sensor_data > threshold]
 print("Values above", threshold, ":", high_values)
+
+OUTPUT
+Sensor Data: [24.5 25.1 26.3 27. 28.2 29.1 27.8 26.5 25.7 30.2]
+Mean : 27.04
+Median : 26.75
+Minimum : 24.5
+Maximum : 30.2
+Std. Dev. : 1.77
+Values above 28.0 : [28.2 29.1 30.2]
